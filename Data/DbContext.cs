@@ -16,6 +16,7 @@ public class ApplicationDbContext:DbContext
 
     public DbSet<Rol> Roles { get; set; }
      public DbSet<Usuario> Usuarios { get; set; }
+      public DbSet<Ubicacion> Ubicaciones { get; set; }
 
 }
 
