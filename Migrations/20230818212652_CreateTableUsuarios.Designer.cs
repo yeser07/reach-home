@@ -79,6 +79,7 @@ namespace Reach_Home.Migrations
                         .IsRequired();
 
                     b.Navigation("Rol");
+                    
                 });
 #pragma warning restore 612, 618
         }
