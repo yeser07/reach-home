@@ -27,6 +27,7 @@ if (app.Environment.IsDevelopment())
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     
     RolesSeeds.SeedData(dbContext);
+    TopografiasSeeds.SeedData(dbContext);
 }
 
 app.UseHttpsRedirection();
