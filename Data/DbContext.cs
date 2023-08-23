@@ -14,11 +14,12 @@ public class ApplicationDbContext:DbContext
         base.OnModelCreating(builder);
     }
 
-    public DbSet<Rol> Roles { get; set; }
-     public DbSet<Usuario> Usuarios { get; set; }
-      public DbSet<Ubicacion> Ubicaciones { get; set; }
-      
-      public DbSet<TerrenoImg> TerrenoImgs { get; set; }
+        public DbSet<Rol> Roles { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Ubicacion> Ubicaciones { get; set; }
+        public DbSet<Topografia> Topografias { get; set;}
+        public DbSet<TerrenoImg> TerrenoImgs { get; set; }
+
 
 }
 
