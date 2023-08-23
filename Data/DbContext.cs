@@ -18,6 +18,7 @@ public class ApplicationDbContext:DbContext
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Ubicacion> Ubicaciones { get; set; }
         public DbSet<Topografia> Topografias { get; set;}
+        public DbSet<TerrenoImg> TerrenoImgs { get; set; }
 
 
 }
